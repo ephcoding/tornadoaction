@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }) {
 	const [queryClient] = React.useState(() => new QueryClient());
 
 	return (
-		<QueryClientProvider client={queryClient}>
+		<QueryClientProvider client={queryClient} contextSharing={true}>
 			<Component {...pageProps} />
 			{/* <ReactQueryDevtools initialIsOpen={false} /> */}
 		</QueryClientProvider>

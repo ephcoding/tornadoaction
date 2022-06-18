@@ -8,7 +8,7 @@ import MapView from "@arcgis/core/views/MapView";
 import { watch, when } from "@arcgis/core/core/reactiveUtils";
 import Extent from "@arcgis/core/geometry/Extent";
 // --
-import { ENDPOINTS } from "services/spc";
+import { ENDPOINTS } from "services/storm_prediction_center";
 import {
 	disableViewNavigation,
 	setDefaultUiComponents,
